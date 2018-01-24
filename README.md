@@ -37,24 +37,4 @@ this returns a payload with information that you pass back to the app to persist
 
 ## 2. Checking and Logging Usage
 
-Once you have the required pairing details, you record usage by calling the "check" api endpoint with the activities being used, along with the "log" flag and the id of the child this device is being used by:
-
-```sh
-curl -H "Content-Type: application/json" -X POST -d '{"user": "ALLOW2_ACCOUNT_EMAIL", "pass":"ALLOW2_ACCOUNT_PASS", "deviceToken": "jJ5GOIaJ028Ywt6K", "name":"Test Device 1" }' https://app.allow2.com:8443/api/pairDevice
-```
-
-this returns a payload with information that you pass back to the app to persist for future use against the service:
-```json
-{
-  "status":"success",
-  "pairId":12345,
-  "token":"6742b233-de46-4c86-2ac9-7b9e5729f999",
-  "name":"Test Device 1",
-  "userId": 1234,
-  "children":[
-    { "id":682, "name":"Bob" },
-    { "id":691, "name":"Grace" },
-    { "id":1795,"name":"Fred"}
-  ]
-}
-```
+Coming shortly

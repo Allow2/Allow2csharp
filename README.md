@@ -1,5 +1,7 @@
 # Allow2csharp
 
+[![Join the chat at https://gitter.im/Allow2/Allow2csharp](https://badges.gitter.im/Allow2/Allow2csharp.svg)](https://gitter.im/Allow2/Allow2csharp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 todo: Port https://github.com/Allow2/Allow2node to a C# library
 (Note: there is a prototype full offline C library we should consider after the base port. Just keep a note here to do so.
 

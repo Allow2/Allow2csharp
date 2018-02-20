@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>allow2</id>
+    <version>1.0.0</version>
+    <authors>allow2</authors>
+    <owners>allow2</owners>
+    <licenseUrl>https://github.com/Allow2/Allow2csharp/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Allow2/Allow2csharp</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Free and Powerful Parental Freedom for your apps and devices</description>
+    <releaseNotes>Sandbox release</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>control children freedom child controls quota parental-control parental parent family c# social-network social gaming time limit limits time-limit</tags>
+    <dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies>
+  </metadata>
+</package>

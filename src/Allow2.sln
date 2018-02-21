@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allow2", "Allow2\Allow2.csproj", "{9239DA70-1736-4291-8D18-266999E54445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allow2.Specs", "Allow2.Specs\Allow2.Specs.csproj", "{6F950A41-727E-4416-8D5B-809946DD2836}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1E909D58-9030-4CF3-8D71-670F513CA122}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{50BFC87E-51D5-4EF8-B3F0-63DED1F151E6}"
+	ProjectSection(SolutionItems) = preProject
+		..\build\build.proj = ..\build\build.proj
+		..\build\Allow2.nuspec = ..\build\Allow2.nuspec
+		..\GitVersion.yml = ..\GitVersion.yml
+		..\go.cmd = ..\go.cmd
+		..\build\logo.png = ..\build\logo.png
+		..\version.txt = ..\version.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9239DA70-1736-4291-8D18-266999E54445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9239DA70-1736-4291-8D18-266999E54445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9239DA70-1736-4291-8D18-266999E54445}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9239DA70-1736-4291-8D18-266999E54445}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9239DA70-1736-4291-8D18-266999E54445}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9239DA70-1736-4291-8D18-266999E54445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9239DA70-1736-4291-8D18-266999E54445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9239DA70-1736-4291-8D18-266999E54445}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9239DA70-1736-4291-8D18-266999E54445}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9239DA70-1736-4291-8D18-266999E54445}.Release|x86.ActiveCfg = Release|Any CPU
+		{6F950A41-727E-4416-8D5B-809946DD2836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F950A41-727E-4416-8D5B-809946DD2836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F950A41-727E-4416-8D5B-809946DD2836}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6F950A41-727E-4416-8D5B-809946DD2836}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6F950A41-727E-4416-8D5B-809946DD2836}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6F950A41-727E-4416-8D5B-809946DD2836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F950A41-727E-4416-8D5B-809946DD2836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F950A41-727E-4416-8D5B-809946DD2836}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6F950A41-727E-4416-8D5B-809946DD2836}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6F950A41-727E-4416-8D5B-809946DD2836}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -13,4 +13,4 @@ _ReSharper.*
 *.bin
 ~$*
 *ncrunch*
-
+**/.DS_Store

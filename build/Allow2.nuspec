@@ -8,7 +8,7 @@
     <owners>Allow2</owners>
     <licenseUrl>https://github.com/Allow2/Allow2csharp/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/Allow2/Allow2csharp</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <iconUrl>https://github.com/Allow2/Allow2csharp/blob/master/icon.png</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Free and Powerful Parental Freedom for your apps and devices</description>
     <copyright>Copyright 2018</copyright>

@@ -15,6 +15,14 @@
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <NuGetPackageImportStamp>85882d4e</NuGetPackageImportStamp>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>com.allow2.</PackageId>
+    <PackageVersion>0.8.0</PackageVersion>
+    <Authors>Allow2CEO</Authors>
+    <Owners>Allow2</Owners>
+    <PackageProjectUrl>https://github.com/Allow2/Allow2csharp</PackageProjectUrl>
+    <PackageTags>allow2,parental,parent,quota,controls,freedom</PackageTags>
+    <Title>Allow2</Title>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

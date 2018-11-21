@@ -1,5 +1,0 @@
-branches:
-  pull-request:
-    regex: \d+\/merge$
-    tag: pr
-    tag-number-pattern: ^(?<number>\d+)\/merge

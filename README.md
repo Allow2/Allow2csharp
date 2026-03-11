@@ -170,12 +170,13 @@ public class SecureCredentialStore : IAllow2CredentialStore
 
 The SDK follows the Allow2 Device Operational Lifecycle:
 
-1. **Pairing** (one-time) -- QR code or PIN, parent never enters credentials on device
-2. **Child Identification** (every session) -- OS account mapping or child selector with PIN
-3. **Permission Checks** (continuous) -- POST to service URL every 30-60s with `log: true`
-4. **Warnings & Countdowns** -- progressive alerts before blocking
-5. **Request More Time** -- child requests, parent approves/denies from their phone
-6. **Feedback** -- in-app bug reports and feature requests
+1. **Pairing** (one-time) -- QR code or 6-digit PIN, parent never enters credentials on device
+2. **Child Identification** (every session) -- OS account mapping, child selector with PIN, or verification via the child's Allow2 app (iOS/Android) or web portal
+3. **Parent Access** -- parent verifies via their Allow2 app or locally with PIN for unrestricted mode
+4. **Permission Checks** (continuous) -- POST to service URL every 30-60s with `log: true`
+5. **Warnings & Countdowns** -- progressive alerts before blocking
+6. **Request More Time** -- child requests, parent approves/denies from their phone (also works offline)
+7. **Feedback** -- bug reports and feature requests sent directly to you, the developer
 
 All API communication uses `System.Text.Json` with no external dependencies. The check endpoint POSTs to the **service URL** (`service.allow2.com`), while all other endpoints use the **API URL** (`api.allow2.com`).
 

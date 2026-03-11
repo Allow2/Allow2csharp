@@ -9,5 +9,16 @@
     <Description>Allow2 Parental Freedom SDK for .NET</Description>
     <Authors>Allow2 Pty Ltd</Authors>
     <PackageId>Allow2</PackageId>
+    <PackageProjectUrl>https://developer.allow2.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Allow2/allow2csharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageTags>allow2;parental-freedom;screen-time;parental-controls</PackageTags>
+    <PackageIcon>icon.png</PackageIcon>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../icon.png" Pack="true" PackagePath="" />
+  </ItemGroup>
 </Project>

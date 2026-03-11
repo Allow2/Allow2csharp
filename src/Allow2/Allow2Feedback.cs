@@ -58,6 +58,7 @@ internal class Allow2FeedbackManager
         var body = new Dictionary<string, object>
         {
             ["userId"] = creds.UserId.ToString(),
+            ["pairId"] = creds.PairId.ToString(),
             ["pairToken"] = creds.PairToken,
             ["vid"] = vid.ToString(),
             ["category"] = CategoryToString(category),
@@ -104,6 +105,7 @@ internal class Allow2FeedbackManager
         var body = new Dictionary<string, object>
         {
             ["userId"] = creds.UserId.ToString(),
+            ["pairId"] = creds.PairId.ToString(),
             ["pairToken"] = creds.PairToken
         };
 
@@ -140,6 +142,7 @@ internal class Allow2FeedbackManager
         var body = new Dictionary<string, object>
         {
             ["userId"] = creds.UserId.ToString(),
+            ["pairId"] = creds.PairId.ToString(),
             ["pairToken"] = creds.PairToken,
             ["discussionId"] = discussionId.ToString(),
             ["message"] = message
